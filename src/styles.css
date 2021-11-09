@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+}
+
+.App > h1 {
+  font-size: 22px;
+  background: #222;
+  color: white;
+  border-radius: 5px;
+  padding:15px;
+  margin: 5px;
+  text-align: center;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 5px;
+}
+.menu *{
+  color: white;
+  text-decoration: none;
+}
+.menu *:hover{
+  color: white;
+}
+.menu button:hover{
+  box-shadow: 2px 2px 5px grey;
+}
+
+#toplamFiyat{
+  background-color: red;
+}
+
+.book {
+  display: flex;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  border: 1px solid #ccc;
+  transition: all 0.5s;
+}
+
+.book img {
+  width: 130px;
+  margin: 0 10px 0 0;
+}

@@ -14,7 +14,7 @@ const Cart = () => {
            <button className="btn btn-dark disabled">Sepetim</button>
         </div>
 
-<h3 className="m-2">sepet toplamı:  &#8378; <span className="myclass">
+<h3 className="m-2">Sepet Toplamı:  &#8378; <span className="myclass">
    {((contexx.data3.[0].price * contexx.data3.[0].alınan)+(contexx.data3.[1].price * contexx.data3.[1].alınan)+
 (contexx.data3.[2].price * contexx.data3.[2].alınan)+(contexx.data3.[3].price * contexx.data3.[3].alınan)+
 (contexx.data3.[4].price * contexx.data3.[4].alınan)).toFixed(2)} </span></h3>
